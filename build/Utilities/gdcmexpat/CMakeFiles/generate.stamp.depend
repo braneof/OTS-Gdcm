@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmexpat/CMakeLists.txt
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmexpat/expat_config.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmexpat/expat_mangle.h.in

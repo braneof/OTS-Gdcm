@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/CMakeLists.txt
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpegcmake.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/mangle_jpeg.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jmorecfg.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jconfig.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpeglib.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jerror.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jinclude.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpegcmake.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/mangle_jpeg.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jmorecfg.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jconfig.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpeglib.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jerror.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jinclude.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpegcmake.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/mangle_jpeg.h.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jmorecfg.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jconfig.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jpeglib.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jerror.h
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/Utilities/gdcmjpeg/jinclude.h

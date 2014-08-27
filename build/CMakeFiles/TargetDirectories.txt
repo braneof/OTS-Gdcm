@@ -1,0 +1,17 @@
+C:/projects/OTS-Gdcm/build/Utilities/socketxx/CMakeFiles/ALL_BUILD.dir
+C:/projects/OTS-Gdcm/build/CMakeFiles/ZERO_CHECK.dir
+C:/projects/OTS-Gdcm/build/Source/Common/CMakeFiles/gdcmCommon.dir
+C:/projects/OTS-Gdcm/build/Source/DataDictionary/CMakeFiles/gdcmDICT.dir
+C:/projects/OTS-Gdcm/build/Source/DataStructureAndEncodingDefinition/CMakeFiles/gdcmDSED.dir
+C:/projects/OTS-Gdcm/build/Source/InformationObjectDefinition/CMakeFiles/gdcmIOD.dir
+C:/projects/OTS-Gdcm/build/Source/MessageExchangeDefinition/CMakeFiles/gdcmMEXD.dir
+C:/projects/OTS-Gdcm/build/Source/MediaStorageAndFileFormat/CMakeFiles/gdcmMSFF.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmcharls/CMakeFiles/gdcmcharls.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmexpat/lib/CMakeFiles/gdcmexpat.dir
+C:/projects/OTS-Gdcm/build/Utilities/getopt/CMakeFiles/gdcmgetopt.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmjpeg/12/CMakeFiles/gdcmjpeg12.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmjpeg/16/CMakeFiles/gdcmjpeg16.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmjpeg/8/CMakeFiles/gdcmjpeg8.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmopenjpeg-v1/libopenjpeg/CMakeFiles/gdcmopenjpeg.dir
+C:/projects/OTS-Gdcm/build/Utilities/gdcmzlib/CMakeFiles/gdcmzlib.dir
+C:/projects/OTS-Gdcm/build/Utilities/socketxx/socket++/CMakeFiles/socketxx.dir

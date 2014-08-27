@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA57C37F-AC69-4CC5-8A3F-E9F91F424101}</ProjectGuid>
+    <RootNamespace>make_valid_dcm</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\include\gdcm\MessageExchangeDefinition;..\include\gdcm\MediaStorageAndFileFormat;..\include\gdcm\InformationObjectDefinition;..\include\gdcm\DataStructureAndEncodingDefinition;..\include\gdcm\DataDictionary;..\include\gdcm\Common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)</OutDir>
+    <LibraryPath>..\link;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir_71A)lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>..\link;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+    <IncludePath>..\include\gdcm\MessageExchangeDefinition;..\include\gdcm\MediaStorageAndFileFormat;..\include\gdcm\InformationObjectDefinition;..\include\gdcm\DataStructureAndEncodingDefinition;..\include\gdcm\DataDictionary;..\include\gdcm\Common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir_71A)include;$(FrameworkSDKDir_71A)include</IncludePath>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>..\include\gdcm\MessageExchangeDefinition;..\include\gdcm\MediaStorageAndFileFormat;..\include\gdcm\InformationObjectDefinition;..\include\gdcm\DataStructureAndEncodingDefinition;..\include\gdcm\DataDictionary;..\include\gdcm\Common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir_71A)include;$(FrameworkSDKDir_71A)include</IncludePath>
+    <LibraryPath>..\link;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir_71A)lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>..\include\gdcm\MessageExchangeDefinition;..\include\gdcm\MediaStorageAndFileFormat;..\include\gdcm\InformationObjectDefinition;..\include\gdcm\DataStructureAndEncodingDefinition;..\include\gdcm\DataDictionary;..\include\gdcm\Common;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir_71A)include;$(FrameworkSDKDir_71A)include</IncludePath>
+    <LibraryPath>..\link;$(VCInstallDir)lib\amd64;$(VCInstallDir)atlmfc\lib\amd64;$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_USING_V110_SDK71_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>gdcmcharls-d-vc11-2.2.3.lib;gdcmCommon-d-vc11-2.2.3.lib;gdcmDICT-d-vc11-2.2.3.lib;gdcmDSED-d-vc11-2.2.3.lib;gdcmexpat-d-vc11-2.2.3.lib;gdcmgetopt-d-vc11-2.2.3.lib;gdcmIOD-d-vc11-2.2.3.lib;gdcmjpeg8-d-vc11-2.2.3.lib;gdcmjpeg12-d-vc11-2.2.3.lib;gdcmjpeg16-d-vc11-2.2.3.lib;gdcmMEXD-d-vc11-2.2.3.lib;gdcmMSFF-d-vc11-2.2.3.lib;gdcmopenjpeg-d-vc11-2.2.3.lib;gdcmzlib-d-vc11-2.2.3.lib;socketxx-d-vc11-2.2.3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;rpcrt4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_USING_V110_SDK71_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>gdcmcharls-d64-vc11-2.2.3.lib;gdcmCommon-d64-vc11-2.2.3.lib;gdcmDICT-d64-vc11-2.2.3.lib;gdcmDSED-d64-vc11-2.2.3.lib;gdcmexpat-d64-vc11-2.2.3.lib;gdcmgetopt-d64-vc11-2.2.3.lib;gdcmIOD-d64-vc11-2.2.3.lib;gdcmjpeg8-d64-vc11-2.2.3.lib;gdcmjpeg12-d64-vc11-2.2.3.lib;gdcmjpeg16-d64-vc11-2.2.3.lib;gdcmMEXD-d64-vc11-2.2.3.lib;gdcmMSFF-d64-vc11-2.2.3.lib;gdcmopenjpeg-d64-vc11-2.2.3.lib;gdcmzlib-d64-vc11-2.2.3.lib;socketxx-d64-vc11-2.2.3.lib;ws2_32.lib;rpcrt4.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gdcmcharls-r-vc11-2.2.3.lib;gdcmCommon-r-vc11-2.2.3.lib;gdcmDICT-r-vc11-2.2.3.lib;gdcmDSED-r-vc11-2.2.3.lib;gdcmexpat-r-vc11-2.2.3.lib;gdcmgetopt-r-vc11-2.2.3.lib;gdcmIOD-r-vc11-2.2.3.lib;gdcmjpeg8-r-vc11-2.2.3.lib;gdcmjpeg12-r-vc11-2.2.3.lib;gdcmjpeg16-r-vc11-2.2.3.lib;gdcmMEXD-r-vc11-2.2.3.lib;gdcmMSFF-r-vc11-2.2.3.lib;gdcmopenjpeg-r-vc11-2.2.3.lib;gdcmzlib-r-vc11-2.2.3.lib;socketxx-r-vc11-2.2.3.lib;ws2_32.lib;rpcrt4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>gdcmcharls-r64-vc11-2.2.3.lib;gdcmCommon-r64-vc11-2.2.3.lib;gdcmDICT-r64-vc11-2.2.3.lib;gdcmDSED-r64-vc11-2.2.3.lib;gdcmexpat-r64-vc11-2.2.3.lib;gdcmgetopt-r64-vc11-2.2.3.lib;gdcmIOD-r64-vc11-2.2.3.lib;gdcmjpeg8-r64-vc11-2.2.3.lib;gdcmjpeg12-r64-vc11-2.2.3.lib;gdcmjpeg16-r64-vc11-2.2.3.lib;gdcmMEXD-r64-vc11-2.2.3.lib;gdcmMSFF-r64-vc11-2.2.3.lib;gdcmopenjpeg-r64-vc11-2.2.3.lib;gdcmzlib-r64-vc11-2.2.3.lib;socketxx-r64-vc11-2.2.3.lib;ws2_32.lib;rpcrt4.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="make_valid_dcm.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

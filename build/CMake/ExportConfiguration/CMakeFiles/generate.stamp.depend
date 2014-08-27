@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/CMake/ExportConfiguration/CMakeLists.txt
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/CMake/ExportConfiguration/GDCMConfig.cmake.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/CMake/ExportConfiguration/GDCMConfigVersion.cmake.in
+C:/projects/OTS-Gdcm/src/gdcm-2.2.3/CMake/ExportConfiguration/UseGDCM.cmake.in

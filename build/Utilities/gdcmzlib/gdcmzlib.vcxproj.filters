@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\gzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Utilities\gdcmzlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83C0DD19-4E13-472D-A775-6987D99C3922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

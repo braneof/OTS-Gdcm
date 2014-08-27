@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmModule.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmMacro.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmModules.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmMacros.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmNestedModuleEntries.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmIODEntry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmTableReader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmSeries.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmDefs.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmDefinedTerms.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmEnumeratedValues.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmStudy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmPatient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmType.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmUsage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\gdcmIOD.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\projects\OTS-Gdcm\src\gdcm-2.2.3\Source\InformationObjectDefinition\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{83C0DD19-4E13-472D-A775-6987D99C3922}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
